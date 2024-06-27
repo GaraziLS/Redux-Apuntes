@@ -281,3 +281,4 @@ Si los devtools de redux no estuvieran instalados esto se escribiría así:
 const store = createStore(rootReducers, applyMiddleware(thunk))
 ```
 
+Y con esto Thunk ya estaría configurado.
