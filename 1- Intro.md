@@ -84,7 +84,7 @@ store.dispatch()
 
 ## Crear acciones y dispatch
 
-Para poder pasar la acción por el dispatch hay que crear la acción primero. No es más que una función que regresa un objeto. También debemos crear una constante que guardará el tipo de acción. A esta función le pasamos, en este caso, la cantidad de objetos que compramos. Y dentro indicamos el tipo de acción que es, que remite a la constante que hemos creado arriba. También especificamos la cantidad que compramos (payload).
+Para poder pasar la acción por el dispatch hay que crear la acción primero. No es más que una función que regresa un objeto. También debemos crear una constante que guardará el tipo de acción. A esta función le pasamos, en este caso, la cantidad de objetos que compramos, teniendo en cuenta que debemos crear un **return** que devuelva un **objeto**. Y dentro del objeto indicamos el tipo de acción que es, que remite a la constante que hemos creado arriba. También especificamos la cantidad que compramos (payload).
 
 ```
 const BUY_POKEMON = "BUY_POKEMON"
